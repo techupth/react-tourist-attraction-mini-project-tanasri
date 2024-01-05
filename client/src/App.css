@@ -1,0 +1,72 @@
+/* header */
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  display: flex;
+
+  text-align: center;
+  font-size: 6rem;
+  color: rgb(26, 177, 223);
+  justify-content: center;
+}
+
+.search-label {
+  display: flex;
+  justify-content: left;
+  font-size: 2rem;
+  width: 80%;
+}
+
+.search-box {
+  display: flex;
+  width: 80%;
+  height: 2rem;
+
+  text-align: center;
+}
+
+/* body */
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-box {
+  display: flex;
+  flex-direction: row;
+}
+.big-Img {
+  display: flex;
+}
+.preview-Img {
+  width: 16rem;
+  height: 16rem;
+}
+.tag-list {
+  display: flex;
+  flex-direction: row;
+}
+.tag-box {
+  display: flex;
+  flex-direction: row;
+}
+.small-pic-box {
+  display: flex;
+  flex-direction: row;
+}
+.small-pic {
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.list-title {
+  font-size: 2rem;
+}
+
+.tag-list {
+  color: rgb(120, 120, 235);
+}
